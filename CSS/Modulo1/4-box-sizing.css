@@ -1,0 +1,19 @@
+
+/*quando uso o ( *) no inicio da pagina ele vai tratar tudo dentro da pagina como sendo a mesma coisa*/
+
+* {
+    box-sizing: border-box;/* equando acrecentamos (border-box) no box-sizing ele trata width: e o height*/
+}
+
+
+.Box {
+  width: 100px;
+  height: 100px;
+
+  background: #ff1493;
+  padding: 20px;
+  border: 10px solid #0000FF;/*TAMANHO TIPO COR border: 10px dashed #0000FF;*/
+}
+
+/* BOX SIZING e uma configuração igual ao content box
+mas temos o bordebox que ele sempre vai acoplar todos os valores dentro da box*/

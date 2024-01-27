@@ -1,0 +1,45 @@
+/*PSEUDO ELEMENTOS*/
+
+/*E UMA FORMA DE ESTILIZAR OS ELEMENTOS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    color: blue;
+}
+/*coisas que ficao antes do elemento*/
+a::before {
+    content: "😜";
+}
+/*coisas que ficao depois do elemento*/
+a::after {
+    content: "🚀";
+}
+
+input {
+    border: 1px solid red;
+    color: blue;
+}
+
+/*exemplo pseudo elemento esse troca tudo dentro placeholder 
+usado para trocar coisas especificas dentro dos elementos*/
+input::placeholder {
+    color: #ff1396;
+}
+
+p {
+    color: blue;
+}
+/* esse e apenas para a primeira letra
+p::first-letter {
+    color: blue;
+}
+
+ esse e apenas para a primeira linha
+p::first-line {
+    color: red;
+}*/

@@ -1,0 +1,32 @@
+<!--Forms
+      Capturar dados de entrada
+      Input->Entrada
+    
+    Action -> define para qual url sera enviado os dados, vasio envia para mesma url
+    Method
+        Get
+        Post
+    -->
+<!--Tag de formulario <form></form> voce pode colocar varios inputs em uma tela-->
+<!--Tem 2 coisas muito importantes no formulario <input> e outro e <button> que tem que ser type="submit"
+mas sempre lembrar de definir o name do campo e lembrando que o (action="") e para onde os dados vao ser enviados
+e outra coisa e o method="" e como vou enviar os dados-->
+<!--quando utilizo method="get" eu envio pela url-->
+<!--quando utilizo method="post" eu envio e de forma escondida-->
+<form action="" method="get" enctype="multipart/form-data"><!--quando vc tem enctype="multipart/form-data" no seu form vc indica pro servidor que vc esta enviando um arquivo-->
+    <h1>Digite seu Endereço</h1>
+    <label>Rua:
+    <input type="text" name="rua" autocomplete="street-address" placeholder="Seu Endereço"/>
+    </label>
+    <label>Numero:
+    <input type="number" name="numero" placeholder="Seu numero"/>
+    </label>
+    <label>email:
+    <input type="email" name="email" autocomplete="email" placeholder="Seu email"/>
+    </label>
+    <label>
+    <input type="file" name="file"/>
+    </label>
+    <button type="reset">Reset</button> <!--button type="reset" usado para limpar todos os campos-->
+    <button type="submit">Enviar Dados</button>
+</form>

@@ -1,0 +1,27 @@
+.single-day-regular {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+h1 {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 5px 5px 20px #ff0000;/*serve para colocar um sombreamento ao texto*/
+  }
+
+P {
+    color: blue;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "single Day";
+    font-style: italic;
+    line-height: 50px;  /*Altura da linha/espacamento entre linhas*/
+    letter-spacing: 10px; /*Espaçamento entre as letras*/
+    word-spacing: 40px; /*espaçamento entre as palavras*/
+    text-align: center; /*alinhamento do texto*/
+    text-transform: capitalize;/* define se as letras vao ser todas maiuscula/minusculas*/
+    text-decoration: underline; /* define a decoração do texto pode ser uma linha entre outros*/
+
+}

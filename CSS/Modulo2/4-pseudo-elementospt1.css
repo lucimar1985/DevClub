@@ -1,0 +1,101 @@
+/* PSEUDO CLASSES
+
+:active - quando o elemento esta ativo, ou sejá, esta sendo pressionado
+:visited - seleciona o link que foi visitado
+:hover - quando o mouse passa por cima do elemento
+:checked - usando em radio / checkbox / select
+:disabled - elemento desabilitado / button / input
+:enabled - o elemento esta abilitado
+:focus - e aplicada quando o elemento recebe  foco, oque pode ocorrer quando o usuario seleciona o elemento
+:read-only - seleciona o input ou textaarea que são apenas leitura
+:empty - elemento que não tem filho
+
+:fisrt-child -primeuro o filho / ex: primeira li de uma ul / primeiro span de uma div
+:first-of-type - primeiro elemento de seu tipo entre os filhos de seu elemento pai.
+:lasr-child - ultimo filho
+:last-of-type - ultimo elemento de seu tipo entre os filhos de seu elemento pai.
+:not() - estiliza os elementos, exeto o que esta dentro dos parenteses ().
+:nth-child() - seleciona o elemento baseado na sua posição ex: nth-child(3)
+:nth-last-child() - seleciona o elemento baseado na sua posição, contando de tras para frente.
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*exemplo da linha 3 so vai funcionar se o elemento estiver sendo clicado
+a:active {
+    color: red;
+}
+:visited - seleciona o link que foi visitado ele fica com outra cor
+a:visited {
+    color: red;
+} */
+/*:hover - quando o mouse passa por cima do elemento
+a:hover {
+    color: red;
+}
+
+p:hover {
+    color: blue;
+}*/
+
+/*:checked - usando em radio / checkbox / select
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}*/
+/*:disabled - elemento desabilitado / button / input
+input:disabled {
+    width: 100px;
+    height: 100px;
+}*/
+/*:focus - e aplicada quando o elemento recebe  foco, oque pode ocorrer quando o usuario seleciona o elemento*/
+/*input:focus {
+    border: 1px solid red;
+    outline: none;
+}*/
+
+/*:read-only - seleciona o input ou textaarea que são apenas leitura*/
+/*input:focus {
+    border: 1px solid blue;
+    outline: none;
+}*/
+/*:empty - elemento que não tem filho*/
+.container {
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+.container:empty {
+    background: blue;
+}
+
+/*:fisrt-child -primeuro o filho / ex: primeira li de uma ul / primeiro span de uma div
+
+li:first-child {
+    color: red;
+}*/
+/*:first-of-type - primeiro elemento de seu tipo entre os filhos de seu elemento pai.*/
+
+span:first-of-type {
+    color: red;
+}
+p:first-of-type {
+    color: blue;
+}
+/*:last-child - ultimo filho
+li:last-child {
+    color: green;
+}*/
+/*:not() - estiliza os elementos, exeto o que esta dentro dos parenteses ().
+.container2 :not(.excluido) {
+    color: red;
+}*/
+/*:nth-child() - seleciona o elemento baseado na sua posição ex: nth-child(3)*/
+li:nth-child(2) {
+    color: red;
+}
+/*:nth-last-child() - seleciona o elemento baseado na sua posição, contando de tras para frente.
+esse e o mesmo do exemplo anterior mas de tras para o inicio*/

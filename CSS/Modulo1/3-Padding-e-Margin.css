@@ -1,0 +1,66 @@
+
+/*padding e quando vc quer colocar um espaçamento dentro da caixa e expande
+de dentro para fora*/
+
+/*exemplos abaixo*/
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    margin: 20px; /*margin e o expaçamento externo*/
+}
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 50px;
+    padding: 30px;
+}
+
+.box-00 {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    margin-top: 20px; /*margin e o expaçamento externo parte superior*/
+    margin-bottom: 30px;/*margin e o expaçamento externo parte inferior*/
+    margin-right: 10px;/*margin e o expaçamento externo lado direito*/
+    margin-left: 5px;/*margin e o expaçamento externo lado esquerdo*/
+}
+/*quase o mesmo exemplo anterior so que com padding*/
+.box-01 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+/* conhecido como atalio do relogio
+.box-01 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    padding-top: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 5px;
+em vez de usar como exemplo acima faz tudo em uma linha
+e inves de padding pode ser margin
+margin: 10px 50px 30px 5px
+        12h  15h  18h  21h
+esse atalho e baseado em um 
+relogio 12h e o topo
+15h vai ser margem direita
+18h vai ser margem inferior
+21h vai ser a margem direita
+}*/
+/*temos outro atalho quando colocamos 3 valores fica o 
+1 e o topo o 2 valor e o direito esquerdo e o terceiro e o inferior
+exemplo abaixo
+    padding: 10px 50px 30px;
+    e quando tenho apenas 2 valores o primeiro e encima embaixo
+    e o segundo valor são direito esquerdo
+    padding: 10px 50px;
+    */

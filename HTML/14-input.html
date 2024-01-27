@@ -1,0 +1,65 @@
+<!--INPUT-->
+
+
+<!--Na tag INPUT vc pode usar o autocomplete assim vc pode definir que tipo de coisa vc quer que ele complete com informações
+que ja ficam sauvas no seu navegador-->
+
+<input autocomplete="street-address"/>
+<!-- Mas como no exemplo abaixo vc pode desabilitar e colocar um valor
+mas no lugar disabled vc tambem pode usar readonly-->
+<input autocomplete="street-address"
+disabled
+value="Simione"/>
+<!-- Mas como no exemplo abaixo vc pode usar (placeholder) e nome que aparece escrito dentro do imput-->
+<input autocomplete="street-address"
+placeholder="Digite sua rua"/>
+
+<!-- Mas como no exemplo abaixo vc pode usar (<label></label>) e nome que aparece escrito ao lado do imput-->
+<label>Rua:
+    <input autocomplete="street-address"
+    placeholder="Digite sua rua"/>
+    </label>
+<!-- Mas como no exemplo abaixo vc pode usar (<label></label>) isso e o mesmoque o exemplo anterior porem separado do imput
+unido por uma ID e pode se adicionar o (autofocus) que imput aparece focado na pagina
+mas e recomendo colocar apenas um autofocus por pagina-->
+<label for="Rua">Rua:</label>
+<input id="Rua" autofocus/>
+
+<!--INPUT color/range-->
+
+<input type="color"/> <!--INPUT add type="color" para adcionar cores rgb/hex-->
+<input type="range" min="0" max="100" value="50"/> <!--INPUT add type="range" para adcionar valor-->
+
+<!--INPUT password/email/Checbox/file-->
+
+<input type="password" autofocus/><!--INPUT type password aparece apenas as bolinhas pois e do tipo senha-->
+<input type="email" placeholder="Digite seu email" autofocus/><!--INPUT email onde pode digitar apenas o email mas pode se adicionar placeholder-->
+
+<label>Você quer molho extra
+<input type="checkbox" autofocus/><!--INPUT type checkbox para campo de marcação-->
+</label>
+
+<!--INPUT type file e usado para fazer upload de um arquivo ao adiciona multiple e possivel add varios arquivos- acrecentando o accept posso escolher a exteção
+que eu posso aceitar que pode ser jpeg/png/entre outros-->
+<input type="file" multiple accept=".jpeg"/>
+
+<!--INPUT type file jpeg/png/entre outros mas ao acrecentar (/*) como no exemplo abaixo ele vai aceitar todos os tipos
+explo (video/*) ele aceitaria todos os tipos de video -->
+<input type="file" multiple accept="video/*"/>
+
+<!--INPUT number este so aceita numeros-->
+<input type="number" autofocus/>
+<!--INPUT data este so aceita datas-->
+<input type="date" autofocus/>
+
+<!--INPUT radio exemplo abaixo e quando todos os radio tem o mesmo name eu posso escolher apenas uma/mas se for diferente posso escolher mais de uma-->
+<h2>Qual a sua rede social favorita</h2>
+<br>
+<label for="facebook">facebook</label>
+<input type="radio" id="facebook" name="Redes-sociais"/>
+<br>
+<label for="instagram">Instagram</label>
+<input type="radio" id="instagram" name="Redes-sociais"/>
+<br>
+<label for="youtube">Youtube</label>
+<input type="radio" id="youtube" name="Redes-sociais"/>

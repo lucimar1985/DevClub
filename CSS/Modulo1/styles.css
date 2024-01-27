@@ -1,0 +1,57 @@
+/* obrigatorio ponto e virgula no css*/
+
+/*vc usar o seletor (*{}) ele vai aplicar para toda a pagina
+seletor de tudo*/
+/*CSS folha estilo sempre vai aplica de cima para baixo*/
+
+/* exemplo comun
+h1 {color: red;
+    background: black;}
+    p {color: blue;
+    font-size: 20px;}
+    button {background: green ;
+    border-color: darkgreen;}
+*/
+/*exemplo de cores rgb red green blue misturando essas cores se forma qualquer cor*/
+
+/*exemplo
+h1 {background: rgb(0, 0, 255;}*/
+
+/*HEXADECIMAL
+DECIMAL-BASE10 => 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+HEXADECIMAL-BASE16 => 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+10, 11, 12, CHEGOU NA ,19 VAI P/, 1A, 1B, 1C,
+
+EXEMPLO DE COMO USAR O HEXADECIMAL*/
+/* h1 {background: #FF0000;}*/
+/* SITE P/CONSULTAR CORES
+w3schools.com
+color.adobe.com
+coolors.co
+colorzila exteção para crome*/
+
+/*existem os seletores de clss= e os id=
+para chamar o id sempre usar (#)*/
+
+#titulo{color: red;
+font-size: 55px;}
+#paragrafo {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#botao {background-color: green;
+}
+#outro-botao {background-color: chocolate;}
+
+/*toda ves que vou usar uma clase coloco ( . ) para o systema intender que e uma classe*/
+/*MAS se eu colocar em sequencua usando( , ) virgula ele vai aplicar na sequencia
+exemplo .texto, .botao ele apricaria a cor para os dois e assim economizar codigo*/
+.texto {
+    color: red;
+    font-weight: bold;
+}
+.botao {
+    background: blue;
+}

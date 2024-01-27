@@ -1,0 +1,40 @@
+/*lembrando que se vc colocar outro nome na class com espaço se torna uma classe diferente*/
+
+
+.box {background: #ff1395;
+height: 50px;
+width: 50px;
+display: inline-block;}
+
+.box-2{background: #ffff00;}
+.box-3{background: #0003ff;}
+
+
+
+
+/*
+DISPLAY
+    - BLOCK  ---lembrando que quando e display BLOCK A LINHA E SO DELE.
+    - INLINE ---lembrando que quando e display inline os elementos ficao em linha
+    - INLINE-BLOCK -esse tem caracteristicas do dis elementos inline/block
+    
+    - GRID
+    - FLEX 
+    
+    - BLOCK 
+        Vem como padrão: div, section, p, h1, h2, ul, li, article,
+        Ocupa 100% da largura do elemento :plai 
+        Sempre ocupa toda sua linha 
+        Altura definida de acordo com seu conteudo 
+        podemos definir height e width 
+        Podemos definir valores de margin 
+
+    - inline
+        Vem com padrão a, span, b, i,...
+        Elementos de linha
+        Não permite alterar height e width 
+        não podemos definir valores de margin top e bottom
+        Ganha comportamentos de uma palavra
+    -INLINE-BLOCK
+        Elementos em linha, porém com com caracteristicas do display block
+        Altura e largura podem ser alteradas.
